@@ -32,7 +32,7 @@ Translate Letters[] = {
 
 int transliteration() {
 	ifstream Origin(_ORIGIN);
-	if (!Origin.is_open()) cout << "Возникла ошибка при открытии файла";
+	if (!Origin.is_open()) { cout << "Возникла ошибка при открытии файла"; return 1; }
 	ofstream Translation(_RESULT);
 	string Input;
 	while (getline(Origin, Input)) {

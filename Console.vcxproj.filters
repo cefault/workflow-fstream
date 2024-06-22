@@ -21,9 +21,15 @@
     <ClCompile Include="Transliteration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TakeOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Transliteration.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeOut.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
