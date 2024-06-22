@@ -11,10 +11,5 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-   /* int USER;
-    cout << "Задание для проверки:\n[1] Убрать ключевые слова\n[2] Транслитерация\nВаш выбор: ";
-    cin >> USER;
-    CLEAR;
-    if (USER == 2) transliteration();*/
     transliteration();
 }
