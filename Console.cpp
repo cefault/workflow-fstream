@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <Windows.h>
+#include <cstring>
 using namespace std;
 
 #include "Transliteration.h"
@@ -17,4 +18,5 @@ int main()
     cin >> USER;
     CLEAR;
     (USER == 1) ? takeout() : transliteration();
+	CLEAR;
 }
